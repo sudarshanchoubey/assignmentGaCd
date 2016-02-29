@@ -93,4 +93,4 @@ for (i in 1:count) {
 }
 
 #Write the dataset to a txt file.
-write.table(finalDataSet, file = "tidyData.txt")
+write.table(finalDataSet, file = "tidyData.txt",row.names = FALSE)
